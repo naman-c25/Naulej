@@ -57,6 +57,13 @@ Confirm the API is up:
 curl http://localhost:5000/test   # → API is working
 ```
 
+Copy the templates and fill in your own values:
+
+```bash
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+```
+
 `backend/.env`:
 
 ```ini
