@@ -1,13 +1,22 @@
 {
-  "name": "backend",
+  "name": "naulej-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express + MongoDB API for Naulej: job postings, applications, AI ATS resume scoring, S3 uploads, and Razorpay payments.",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "job-portal",
+    "ats",
+    "aws-s3",
+    "razorpay"
+  ],
+  "author": "Naman Kumar Chaudhary",
   "license": "ISC",
   "type": "module",
   "dependencies": {
