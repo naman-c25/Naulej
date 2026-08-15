@@ -51,6 +51,12 @@ cd backend && npm install && npm start   # nodemon server.js → port 5000
 cd frontend && npm install && npm run dev  # vite → port 5173
 ```
 
+Confirm the API is up:
+
+```bash
+curl http://localhost:5000/test   # → API is working
+```
+
 `backend/.env`:
 
 ```ini
